@@ -234,8 +234,9 @@ img.mountain {
 
 .bottom-cloud {
   position: absolute;
-  left: 10%;
+  left: 8%;
   bottom: 40%;
+  width: 10%;
 }
 
 .code-img {
@@ -351,6 +352,20 @@ img.right-bigcloud {
 
 @media screen and (min-device-width : 320px) and (max-device-width : 767px) {
   
+  .bottom-cloud {
+    position: absolute;
+    left: 3%;
+    bottom: 42%;
+    width: 10%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 2%;
+  top: 15%;
+  width: 12%;
+}
+
 .intro{
   width: 90%;
 }
@@ -418,13 +433,6 @@ img.right-bigcloud {
   right: 22%;
   transform: rotateY(165deg);
   width: 40%;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 14%;
-  top: 19%;
-  width: 8%;
 }
 
 .top-container {
